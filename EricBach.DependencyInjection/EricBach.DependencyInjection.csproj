@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>EricBach.CQRS is a microservices CQRS framework</Description>
+    <PackageProjectUrl>https://github.com/eric-bach/EricBach.CQRS</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/eric-bach/EricBach.CQRS</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <!-- <VersionPrefix>1.0.7</VersionPrefix>
+    <VersionSuffix>beta</VersionSuffix> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.0" />
+    <PackageReference Include="Scrutor" Version="3.0.2" />
+  </ItemGroup>
+
+</Project>
